@@ -1,0 +1,34 @@
+<html>
+    <head>
+      <title>Text Compare</title>
+      <style>
+        table,th,td{
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+      </style>
+    </head>
+    <body>
+      <center>
+
+         <h1>Please enter profile for comparing</h1>
+         
+         
+         <form action="http://3.226.253.49:80\textcompare" method="post">
+          <table border="0">
+            <th>profile:</th>
+            <td><textarea type="text" name="description" placeholder="required" cols="30" rows="30"></textarea></td>
+            </tr>
+            <tr>
+            </tr>
+          </table>
+          <input type="submit" value="compare">
+        </form>	   
+         <h2><a href="/createForm">Insert Data Into Table</a></h2>
+         <h2><a href="/updateForm">Update data</a></h2>
+         <h2><a href="/deleteForm">Delete Data</a></h2>
+         <!-- <h2><a href="/listjsonForm">Show data in the Form of Json</a></h2> -->
+         <h2><a href="/listForm">Show all the profile</a></h2>
+      </center>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>profile insert</title>
+    <style>
+        table,th,td{
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+      </style>
+</head>
+<body>
+ <center>
+    <h1><font color="red">Please enter your profile</font></h1>
+    <form action="http://3.226.253.49:80\insert" method="post">
+    <table border="0">
+    <tr>
+     <th>Name:</th>
+     <td><input type="text" name="name" placeholder="required"></td>
+    </tr>
+    <tr>
+     <th>Country:</th>
+     <td><input type="text" name="location" placeholder="required"></td>
+    </tr> 
+    <tr>
+     <th>Profile:</th>
+     <td><textarea type="text" name="description" placeholder="required" cols="30" rows="30"></textarea></td>
+    </tr>
+    <tr>
+    </tr>
+</table>
+<input type="submit" value="Insert">
+<input type="reset" value="Reset">
+    	
+
+    </form>	
+ 
+
+ </center>
+</body>
+</html>
